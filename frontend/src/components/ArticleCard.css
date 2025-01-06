@@ -1,0 +1,54 @@
+.article-card {
+  padding: clamp(1rem, 2vw, 1.5rem);
+  background: #363636;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid #404040;
+}
+
+.article-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  background: #404040;
+}
+
+.article-card.selected {
+  border-color: #0077b5;
+  background: #404040;
+}
+
+.article-card h3 {
+  margin: 0 0 0.75rem 0;
+  color: #fff;
+  line-height: 1.4;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+
+.article-meta {
+  font-size: clamp(0.75rem, 1vw, 0.875rem);
+  color: #999;
+  margin-bottom: 0.75rem;
+}
+
+.article-content {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #404040;
+  color: #ccc;
+  line-height: 1.6;
+  font-size: clamp(0.875rem, 1.2vw, 1rem);
+}
+
+.article-content a {
+  color: #0077b5;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 0;
+}
+
+.article-content a:hover {
+  color: #00a0dc;
+} 

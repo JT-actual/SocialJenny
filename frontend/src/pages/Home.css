@@ -1,0 +1,21 @@
+.home {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+} 
